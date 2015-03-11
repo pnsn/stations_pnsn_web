@@ -1,0 +1,18 @@
+{
+  "name": "stations_pnsn_web",
+  "version": "0.0.1",
+  "description": "Sinatra app for viewing rrd data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnsn/stations_pnsn_web.git"
+  },
+  "author": "Jon Connolly",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/pnsn/stations_pnsn_web/issues"
+  },
+  "homepage": "https://github.com/pnsn/stations_pnsn_web",
+  "devDependencies": {
+
+  }
+}

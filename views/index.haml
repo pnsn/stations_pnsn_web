@@ -1,0 +1,24 @@
+%ul#myTab.nav.nav-tabs
+  -@stas.each do |key, arr|
+    %li
+      %a{href: "##{key}"}=key.upcase
+      
+.tab-content
+  -@stas.each do |key, arr|
+    %div{ id: "#{key}",  class: "tab-pane fade in active" }
+      %h3=key
+      %ul
+        -arr.each do |sta|
+          -sta_name=sta.split("-").first
+          %li
+            %a{href: "/#{sta_name}"}=sta_name
+        
+        
+:javascript
+  $(document).ready(function(){ 
+    $("#myTab a").click(function(e){
+    	e.preventDefault();
+    	$(this).tab('show');
+    });
+  });
+        

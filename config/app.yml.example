@@ -1,0 +1,8 @@
+development:
+  rrd_path: "./tmp/rrd"
+  rrd_img_path: "./public/rrd_images"
+  rrd_img_url: "http://localhost:3000/rrd_images"
+production:
+  rrd_path: "/path/to/rrd"
+  rrd_img_path: "/path/to/rrd_images"
+  rrd_img_url: "http://rrd.pnsn.org/rrd_images"

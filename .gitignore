@@ -1,0 +1,5 @@
+tmp
+config/app.yml
+node_module
+.vagrant
+public/rrd_images/*
