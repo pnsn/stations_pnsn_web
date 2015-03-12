@@ -1,4 +1,4 @@
 tmp
 config/app.yml
 node_module
-.vagrants
+.vagrant

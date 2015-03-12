@@ -6,7 +6,7 @@ require "haml"
 
 config_file  './config/app.yml'
 set :environment, ENV.has_key?("RACK_ENV") ? ENV["RACK_ENV"] : :development
-set :port, 3000 #default
+set :port, settings.port
 #this is needed for the vagrant box since Sinatra will bind to localhost by default
 set :bind, '0.0.0.0'
 
